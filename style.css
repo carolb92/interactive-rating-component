@@ -68,8 +68,9 @@ button.number:hover {
     color: white;
 }
 
-button.number:active {
+button.number:focus {
     background-color: hsl(25, 97%, 53%);
+    color: white;
 }
 
 button.submit {
