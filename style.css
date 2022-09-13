@@ -1,0 +1,143 @@
+body {
+    margin: 0 auto;
+    background-color: hsl(216, 12%, 8%);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    margin: 0 30px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+figure .star {
+    background-color: #343940;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 20px 0 5px 0;
+    width: 5%;
+}
+
+img .star {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.3em;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+button.number {
+    background-color: #343940;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    flex-basis: 15%;
+    padding: 12px 6px;
+    border-radius: 50%;
+}
+
+button.number:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+button.number:active {
+    background-color: hsl(25, 97%, 53%);
+}
+
+button.submit {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+button.submit:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+
+.hide {
+    display: none;
+}
+
+
+.thank-you {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    margin: 0 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+figure .thanks {
+    width:50%;
+}
+
+img .thanks {
+    width: 100%;
+    height: auto;
+}
+
+.selection {
+    color:hsl(25, 97%, 53%);
+    background-color: #343940;
+    padding: 8px 0;
+    margin-left: 40px;
+    border-radius: 15px;
+    width: 70%;
+}
+
+/* desktop styles */
+@media only screen and (min-width: 1200px) {
+    .rating {
+        width: 25%;
+    }
+
+    figure .star {
+        display: flex;
+        margin: 16px 0;
+    }
+
+    button.number {
+        padding: 18px 0;
+    }
+
+    .thank-you {
+        width: 25%;
+    }
+
+    .selection {
+        margin-left: 55px;
+    }
+}
