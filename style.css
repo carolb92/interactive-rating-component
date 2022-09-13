@@ -119,6 +119,9 @@ img .thanks {
     width: 70%;
 }
 
+.attribution { font-size: 11px; text-align: center; color: darkgrey; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
 /* tablet styles */
 @media only screen and (min-width: 768px) {
     .rating {
