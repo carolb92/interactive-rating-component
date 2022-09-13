@@ -65,6 +65,6 @@ Will need to continue building up my JavaScript skillset.
 
 ## Author
 
-- Website - [Carol Brugeeman](https://github.com/carolb92)
+- Website - [Carol Bruggeman](https://github.com/carolb92)
 - Frontend Mentor - [@carolb92](https://www.frontendmentor.io/profile/carolb92)
 
