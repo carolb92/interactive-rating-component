@@ -19,15 +19,15 @@ main {
     flex-direction: column;
 }
 
-figure .star {
+.star-figure {
     background-color: #343940;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 50%;
     margin: 16px 0 0 0;
     width: 5%;
 }
 
-img .star {
+.star {
     max-width: 100%;
     height: auto;
 }
@@ -119,15 +119,22 @@ img .thanks {
     width: 70%;
 }
 
+/* tablet styles */
+@media only screen and (min-width: 768px) {
+    .rating {
+        width: 35%;
+    }
+
+    .thank-you {
+        width: 35%;
+    }
+
+}
+
 /* desktop styles */
 @media only screen and (min-width: 1200px) {
     .rating {
         width: 25%;
-    }
-
-    figure .star {
-        display: flex;
-        margin: 16px 0;
     }
 
     button.number {
